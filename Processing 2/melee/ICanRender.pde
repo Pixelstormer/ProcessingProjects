@@ -1,0 +1,4 @@
+interface ICanRender{
+  void render();
+}
+

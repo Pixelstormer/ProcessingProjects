@@ -1,0 +1,4 @@
+interface ICanMoveMyself{
+  void move();
+}
+

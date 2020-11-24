@@ -1,0 +1,36 @@
+help:Returns an explanation for the command "..." in the syntax "help ..." where "..." is the name of the command. If no command is given, returns the help for every command.
+echo:Returns "..." in the syntax "echo ..." where "..." is all text after "echo ".
+clear:Clears the console.
+
+addsr:"Add Simple Response" - Adds a new SimpleResponse in the syntax "x:y" where "x" is the keyword to trigger the response and "y" is the response that is triggered.
+remsr:"Remove Simple Response" - Removes a SimpleResponse in the syntax "remsr x" wher "x" is the keyword to trigger the response.
+loadsr:"Load Simple Responses" - Reloads the list of SimpleResponses.
+getsr:"Get Simple Responses" - Returns a list of all currently loaded SimpleResponses.
+
+addh:"Add Help" - Adds a new Help Response in the syntax "x:y" where "x" is the keyword passed to the "help" command to trigger returning the response "y".
+remh:"Remove Help" - Removes a Help Response in the syntax "remh x" where "x" is the keyword passed to the "help" command to trigger the response.
+loadh:"Load Help" - Reloads the list of Help Responses.
+
+adda:"Add Alias" - Adds a new command alias in the syntax "adda a:b,c,d,..." "a" is a 'base' command and "b,c,d,..." is a list of aliases, seperated by ","s.
+loada:"Load Aliases" - Reloads the list of Aliases.
+geta:"Get Aliases" - Gets the aliases of a given command in the syntax "geta x" where "x" is the name of a command, or one of its aliases
+
+getip:Returns the IP address of this machine.
+host:Creates a new Server on this machine's IP in the syntax "host a b" where "a" is the port and "b" is the server name.
+con:"Connect" - Creates a client connected to a server in the syntax "con a b" where "a" is the target server's IP and "b" is the targer server's port.
+
+setu:"Set Username" - Sets your network username to "x" in the syntax "setu x" where "x" is all text after "setu ". Your username is not persistent.
+getu:"Get Username" - Returns your current network username.
+gets:"Get Server" - Returns the current Server Name.
+msg:"Message" - Writes the text "..." to the currently connected server, or to all connected clients if you are the server, in the syntax "msg ..." where "..." is all text after "msg ".
+disc:"Disconnect" - Stops the currently active connection.
+
+cstat:"Connection Status" - Returns information about the current connection, if any.
+kick:Kicks a client off the server in the syntax "kick x:y", where "x" is the current /Username/ of the client to be kicked, and "y" is the optional reason for the kick. If there is no reason to be given, the syntax is "kick x" where "x" is the name of the user to be kicked.
+
+motd:"Message of the day" - Re-prints the message that is printed when the program is started.
+date:Returns the current time and date in the format "a:b, x/y/z" where "a:b" is the time in "hours:minutes", and "x/y/z" is the date in "day/month/year".
+
+geto:"Get Online" - Returns the list of all clients on the current connection, if any.
+
+getb:"Get Base" - Returns the 'base' command for a given alias.

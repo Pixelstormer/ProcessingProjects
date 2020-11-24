@@ -1,0 +1,7 @@
+ping:pong
+hello:world
+hotel:trivago
+marco:polo
+keyword:response
+x:y
+yin:yang

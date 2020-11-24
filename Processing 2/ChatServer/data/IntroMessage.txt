@@ -1,0 +1,10 @@
+****************************************
+*                                      *
+* PROCESSING TEXT CONSOLE/CHAT SERVER  *
+*       Created by Theo Stevens        *
+*          Created 26/11/2018          *
+* Chat functionality added 13/12/2018  *
+*                                      *
+*  Type 'help' for a list of commands  *
+*                                      *
+****************************************

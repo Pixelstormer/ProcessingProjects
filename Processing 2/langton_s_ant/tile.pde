@@ -1,0 +1,3 @@
+class tile extends point{
+  
+}
